@@ -9,6 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
+# Ruff
+.ruff_cache
+
 game_state.jsonl
 game_events.jsonl
-

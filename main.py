@@ -16,8 +16,7 @@ def main():
 
     pygame.init()
 
-    screen = pygame.display.set_mode(
-        (constants.SCREEN_WIDTH, constants.SCREEN_HEIGHT))
+    screen = pygame.display.set_mode((constants.SCREEN_WIDTH, constants.SCREEN_HEIGHT))
 
     clock = pygame.time.Clock()
     dt = 0
@@ -31,7 +30,7 @@ def main():
 
     AsteroidField.containers = (updatable,)
 
-    asteroid_field = AsteroidField()
+    AsteroidField()
 
     asteroids = pygame.sprite.Group()
 
