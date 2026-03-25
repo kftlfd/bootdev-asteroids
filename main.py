@@ -70,6 +70,11 @@ def main():
 
         dt = clock.tick(60) / 1000
 
+        keys = pygame.key.get_pressed()
+        if keys[pygame.K_q]:
+            print("quit game")
+            sys.exit()
+
 
 if __name__ == "__main__":
     main()
